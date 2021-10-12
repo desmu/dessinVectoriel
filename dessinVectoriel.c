@@ -8,6 +8,9 @@
 # include <windows.h>
 #define sleep(x) Sleep(1 * (x))
 #endif
+
+//il s'agit de générer des disques dont la forme est recalculée selon le rayon comme dans un logiciel de dessin vectoriel
+
 int main()
 {
     char *questions[2]= {"rayon du cercle ? stop[0] : \n","position du cercle ? : \n"};
